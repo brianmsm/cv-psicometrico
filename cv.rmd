@@ -19,6 +19,9 @@ knitr::opts_chunk$set(
   echo = FALSE
 )
 
+if(!require("remotes")) install.packages("remotes")
+if(!require("datadriven")) remotes::install_github("brianmsm/datadrivencv")
+
 library(magrittr) # For the pipe
 source("cv_printing_functions.r")
 
