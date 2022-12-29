@@ -76,9 +76,9 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("Puede ver una versión online del CV en [_brianmsm.github.io/cv-breve_](https://brianmsm.github.io/cv-breve/)")
+  cat("Puede ver una versión online del CV en [_brianmsm.github.io/cv-psicometrico_](https://brianmsm.github.io/cv-psicometrico/)")
 } else {
-  cat("[<i class='fas fa-download'></i> Descarga este CV en PDF](https://github.com/brianmsm/cv-breve/raw/main/cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Descarga este CV en PDF](https://github.com/brianmsm/cv-psicometrico/raw/main/cv.pdf)")
 }
 ```
 
