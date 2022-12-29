@@ -24,10 +24,28 @@ if(!require("datadrivencv")) remotes::install_github("brianmsm/datadrivencv")
 
 library(magrittr) # For the pipe
 source("cv_printing_functions.r")
+library(metathis)
+```
 
+```{r metathis, echo=FALSE}
+meta() %>%
+  meta_name("github-repo" = "brianmsm/cv-psicometrico") %>%
+  meta_social(
+    title = "CV Brian Norman Peña Calero",
+    description = "Interés y formación abocado a la medición, evaluación, análisis y desarrollo de proyectos de investigación",
+    url = "https://brianmsm.github.io/cv-psicometrico/",
+    image = "https://brianmsm.github.io/cv-psicometrico/cover_cv.png",
+    image_alt = "CV Brian Norman Peña Calero",
+    og_type = "website",
+    og_author = "Brian Norman Peña Calero",
+    twitter_card_type = "summary_large_image"
+  )
+```
+
+```{r, include=FALSE}
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/1j2K-ZpgNmcAVLz2NY6M_-2fZ1KLvC2uvOMG5qnrpBII",  
+  data_location = "https://docs.google.com/spreadsheets/d/1j2K-ZpgNmcAVLz2NY6M_-2fZ1KLvC2uvOMG5qnrpBII",
   pdf_mode = params$pdf_mode
 )
 ```
