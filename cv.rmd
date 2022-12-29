@@ -20,14 +20,14 @@ knitr::opts_chunk$set(
 )
 
 if(!require("remotes")) install.packages("remotes")
-if(!require("datadriven")) remotes::install_github("brianmsm/datadrivencv")
+if(!require("datadrivencv")) remotes::install_github("brianmsm/datadrivencv")
 
 library(magrittr) # For the pipe
 source("cv_printing_functions.r")
 
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/1eVUhfUpetO1cJWRimTX8dnpTtUE97tCJnuqN_MHBqJs",  
+  data_location = "https://docs.google.com/spreadsheets/d/1j2K-ZpgNmcAVLz2NY6M_-2fZ1KLvC2uvOMG5qnrpBII",  
   pdf_mode = params$pdf_mode
 )
 ```
