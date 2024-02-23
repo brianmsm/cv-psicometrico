@@ -105,7 +105,7 @@ Disclaimer {#disclaimer}
 
 Hecho con el paquete R [**pagedown**](https://github.com/rstudio/pagedown). 
 
-El código fuente se encuentra disponible [en github.com/brianmsm/cv-breve](https://github.com/brianmsm/cv-breve).
+El código fuente se encuentra disponible [en github.com/brianmsm/cv-psicometrico](https://github.com/brianmsm/cv-psicometrico).
 
 Última actualización: `r Sys.Date()`.
 
@@ -141,7 +141,7 @@ CV %<>% print_section('experiencia_investigacion')
 ```
 
 
-Investigaciones y conferencias {data-icon=book}
+Investigaciones {data-icon=book}
 --------------------------------------------------------------------------------
 ::: aside
 ```{r}
